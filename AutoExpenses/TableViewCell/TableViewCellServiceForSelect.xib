@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProDisplay-Medium.ttf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+        <array key="SFProDisplay-Regular.ttf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+        <array key="SFProDisplay-Semibold.ttf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellServicesForSelected" rowHeight="826" id="KGk-i7-Jjw" customClass="TableViewCellServiceForSelect" customModule="AutoExpenses" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="411" height="826"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="411" height="826"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XEG-d0-hYi" userLabel="ViewPreview" customClass="ViewPlayerForVideo" customModule="AutoExpenses" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="411" height="231"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="XEG-d0-hYi" secondAttribute="height" multiplier="16:9" id="Ga1-p3-GTM"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hfe-xt-SYf" userLabel="logo">
+                        <rect key="frame" x="13" y="13" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Hfe-xt-SYf" secondAttribute="height" multiplier="1:1" id="AMt-NU-8iw"/>
+                            <constraint firstAttribute="height" constant="40" id="XaL-yg-pcJ"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfh-Vt-XXq" userLabel="LabelHeader">
+                        <rect key="frame" x="64" y="13" width="43.5" height="20"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWO-IW-QI7" userLabel="LabelAddress">
+                        <rect key="frame" x="64" y="33" width="32.5" height="20"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Je1-QZ-CVb" userLabel="ViewLike" customClass="ViewLike" customModule="AutoExpenses" customModuleProvider="target">
+                        <rect key="frame" x="-2" y="231" width="415" height="43"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="j8h-tY-bhz"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SzH-uq-3BL" userLabel="buttonWriting">
+                        <rect key="frame" x="-1" y="775" width="413" height="52"/>
+                        <color key="backgroundColor" red="1" green="0.77647058823529413" blue="0.25882352941176467" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="52" id="LOQ-bJ-gZ6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="17"/>
+                        <state key="normal" title="Записаться на сервис">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="XEG-d0-hYi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="6qK-pC-b4G"/>
+                    <constraint firstItem="XEG-d0-hYi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7WR-6E-UiI"/>
+                    <constraint firstItem="hfh-Vt-XXq" firstAttribute="top" secondItem="Hfe-xt-SYf" secondAttribute="top" id="8eA-28-hCd"/>
+                    <constraint firstItem="qWO-IW-QI7" firstAttribute="bottom" secondItem="Hfe-xt-SYf" secondAttribute="bottom" id="9dQ-nE-YvD"/>
+                    <constraint firstItem="Hfe-xt-SYf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="13" id="BFg-GL-BXV"/>
+                    <constraint firstItem="hfh-Vt-XXq" firstAttribute="height" secondItem="Hfe-xt-SYf" secondAttribute="height" multiplier="0.5" id="Btu-rD-dTM"/>
+                    <constraint firstAttribute="trailing" secondItem="Je1-QZ-CVb" secondAttribute="trailing" constant="-2" id="EBM-0C-VgE"/>
+                    <constraint firstAttribute="bottom" secondItem="SzH-uq-3BL" secondAttribute="bottom" constant="-1" id="Gao-zR-459"/>
+                    <constraint firstItem="qWO-IW-QI7" firstAttribute="leading" secondItem="hfh-Vt-XXq" secondAttribute="leading" id="NKn-XM-NLI"/>
+                    <constraint firstItem="Je1-QZ-CVb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="-2" id="Q71-Lh-tGI"/>
+                    <constraint firstItem="Hfe-xt-SYf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="Saw-PF-YPJ"/>
+                    <constraint firstAttribute="trailing" secondItem="XEG-d0-hYi" secondAttribute="trailing" id="Vj6-nt-eIm"/>
+                    <constraint firstItem="hfh-Vt-XXq" firstAttribute="leading" secondItem="Hfe-xt-SYf" secondAttribute="trailing" constant="11" id="bic-yp-WNh"/>
+                    <constraint firstItem="SzH-uq-3BL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="-1" id="ceh-Ty-0Mz"/>
+                    <constraint firstAttribute="trailing" secondItem="SzH-uq-3BL" secondAttribute="trailing" constant="-1" id="iOF-VA-tFY"/>
+                    <constraint firstItem="Je1-QZ-CVb" firstAttribute="top" secondItem="XEG-d0-hYi" secondAttribute="bottom" id="nDr-Kf-NL0"/>
+                    <constraint firstItem="qWO-IW-QI7" firstAttribute="height" secondItem="hfh-Vt-XXq" secondAttribute="height" id="x8f-9m-FQf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="buttonWrite" destination="SzH-uq-3BL" id="F2o-by-a0N"/>
+                <outlet property="iconStation" destination="Hfe-xt-SYf" id="aFn-yS-Hov"/>
+                <outlet property="labelHeader" destination="hfh-Vt-XXq" id="XJh-bd-qoO"/>
+                <outlet property="viewLike" destination="Je1-QZ-CVb" id="BjN-Xv-cU9"/>
+                <outlet property="viewPlayer" destination="XEG-d0-hYi" id="Ckp-xc-hvW"/>
+                <outletCollection property="arrayLabelsAddress" destination="qWO-IW-QI7" collectionClass="NSMutableArray" id="MS2-Ar-oNe"/>
+            </connections>
+            <point key="canvasLocation" x="65.94202898550725" y="322.76785714285711"/>
+        </tableViewCell>
+    </objects>
+</document>

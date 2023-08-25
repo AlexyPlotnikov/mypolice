@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProDisplay-Regular.ttf">
+            <string>SFProDisplay-Regular</string>
+        </array>
+        <array key="SFProDisplay-Semibold.ttf">
+            <string>SFProDisplay-Semibold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellWorkingRepair" rowHeight="187" id="KGk-i7-Jjw" customClass="TableViewCellInfoWorkingRepair" customModule="AutoExpenses" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="460" height="187"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="460" height="187"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngy-k0-hvC" userLabel="LabelName">
+                        <rect key="frame" x="24" y="8" width="420" height="56"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Semibold" family="SF Pro Display" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b2m-NX-6jL" userLabel="LabelDescription">
+                        <rect key="frame" x="24" y="72" width="420" height="107"/>
+                        <fontDescription key="fontDescription" name="SFProDisplay-Regular" family="SF Pro Display" pointSize="14"/>
+                        <color key="textColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wqp-FB-4dP">
+                        <rect key="frame" x="8" y="32" width="8" height="8"/>
+                        <color key="backgroundColor" red="0.50980392156862742" green="0.24313725490196078" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="0Ci-OZ-Zlo"/>
+                            <constraint firstAttribute="width" secondItem="wqp-FB-4dP" secondAttribute="height" multiplier="1:1" id="2HJ-89-scs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ngy-k0-hvC" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.3" id="3Ml-SZ-iSN"/>
+                    <constraint firstItem="b2m-NX-6jL" firstAttribute="top" secondItem="Ngy-k0-hvC" secondAttribute="bottom" constant="8" id="5C6-Du-8Vw"/>
+                    <constraint firstAttribute="bottom" secondItem="b2m-NX-6jL" secondAttribute="bottom" constant="8" id="6iB-mC-QFP"/>
+                    <constraint firstItem="wqp-FB-4dP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="JIz-bI-Vjd"/>
+                    <constraint firstItem="b2m-NX-6jL" firstAttribute="leading" secondItem="Ngy-k0-hvC" secondAttribute="leading" id="K1A-oX-iZ3"/>
+                    <constraint firstAttribute="trailing" secondItem="b2m-NX-6jL" secondAttribute="trailing" constant="16" id="fmE-T9-Jdh"/>
+                    <constraint firstItem="Ngy-k0-hvC" firstAttribute="leading" secondItem="wqp-FB-4dP" secondAttribute="trailing" constant="8" id="hRb-ql-2zh"/>
+                    <constraint firstAttribute="trailing" secondItem="Ngy-k0-hvC" secondAttribute="trailing" constant="16" id="oGF-e2-HZo"/>
+                    <constraint firstItem="Ngy-k0-hvC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="pPS-K4-d8K"/>
+                    <constraint firstItem="wqp-FB-4dP" firstAttribute="centerY" secondItem="Ngy-k0-hvC" secondAttribute="centerY" id="uXB-ui-Gua"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <inset key="separatorInset" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="labelDescription" destination="b2m-NX-6jL" id="ld0-Xm-g2v"/>
+                <outlet property="labelName" destination="Ngy-k0-hvC" id="ABD-cF-Lbr"/>
+                <outlet property="view" destination="wqp-FB-4dP" id="Ql8-ca-qaj"/>
+            </connections>
+            <point key="canvasLocation" x="239.13043478260872" y="184.48660714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

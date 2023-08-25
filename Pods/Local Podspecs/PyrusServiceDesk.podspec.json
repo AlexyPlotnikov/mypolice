@@ -1,0 +1,20 @@
+{
+  "name": "PyrusServiceDesk",
+  "version": "1.2.0",
+  "summary": "Create a service with chat with support.",
+  "homepage": "https://pyrus.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE.txt"
+  },
+  "authors": "Pyrus",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/simplygoodsoftware/pyrusservicedesk.git",
+    "tag": "1.2.0"
+  },
+  "preserve_paths": "PyrusServiceDeskIOS/PyrusServiceDesk.framework",
+  "vendored_frameworks": "PyrusServiceDeskIOS/PyrusServiceDesk.framework"
+}

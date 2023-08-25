@@ -1,0 +1,64 @@
+
+/* Class = "UITabBarItem"; title = "Статистика"; ObjectID = "7d3-S2-ovw"; */
+"7d3-S2-ovw.title" = "Статистика";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "DMW-mN-TCk"; */
+"DMW-mN-TCk.normalTitle" = "Назад";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ERW-Zn-Jbs"; */
+"ERW-Zn-Jbs.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Добавить"; ObjectID = "Gx8-Yt-wOG"; */
+"Gx8-Yt-wOG.normalTitle" = "Добавить";
+
+/* Class = "UILabel"; text = "Статистика"; ObjectID = "NA4-25-Rni"; */
+"NA4-25-Rni.text" = "Статистика";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QFt-NF-wvh"; */
+"QFt-NF-wvh.text" = "Label";
+
+/* Class = "UILabel"; text = "Внести расходы"; ObjectID = "bjx-iM-twc"; */
+"bjx-iM-twc.text" = "Внести расходы";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cXB-v6-28w"; */
+"cXB-v6-28w.text" = "Label";
+
+/* Class = "UILabel"; text = "Нет данных"; ObjectID = "cnF-8H-NF6"; */
+"cnF-8H-NF6.text" = "Нет данных";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "g5G-6s-tGS"; */
+"g5G-6s-tGS.text" = "Category";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gfz-TD-cF2"; */
+"gfz-TD-cF2.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Главная"; ObjectID = "ghy-yD-yLD"; */
+"ghy-yD-yLD.title" = "Главная";
+
+/* Class = "UITabBarItem"; title = "Расходы"; ObjectID = "pqZ-td-3jO"; */
+"pqZ-td-3jO.title" = "Расходы";
+
+"PHOTO" = "ФОТО";
+
+"HDR_AUTO" = "Авто";
+"HDR_ON" = "Вкл";
+"HDR_OFF" = "Выкл";
+"TIMER_OFF_TEXT" = "Выкл";
+"USE_PHOTO" = "Использовать фото";
+
+"PHOTOS" = "Галерея";
+"CAMERA_ROLL" = "Фотопленка";
+"ALL_SCREENSHOTS" = "Скриншоты";
+
+"RETAKE" = "Переснять";
+"ALBUM_IMAGE_COUNT_FORMAT" = "%@ Фото";
+"ALBUM_VIDEO_COUNT_FORMAT" = "%@ Видео";
+"1_ALBUM_PHOTO" = "1 Фото";
+"1_ALBUM_VIDEO" = "1 Видео";
+"ALBUM_TWO_TYPES_LABEL_COMMAS" = "%@, %@";
+
+"ALL_PHOTOS_IN_LIBRARY" = "Моменты";
+"PXUserCollectionsSectionTitle" = "Мой альбом";
+"FULL_PHOTOS_GRID_ZOOM_LEVEL_TITLE" = "Моменты";
+"NO_PHOTOS_OR_VIDEOS" = "Нет фото или видео";
+"EMPTY_ALBUM_LIST_MESSAGE_iPhone" = "Вы можете снимать фото и видео с помощью камеры или синхронизировать фото и видео на iPhone с помощью iTunes";

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18D109" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DriveSertificate_Data" representedClassName="DriveSertificate_Data" syncable="YES" codeGenerationType="class">
+        <attribute name="dateEnd" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="nameOwner" optional="YES" attributeType="String" defaultValueString="Нет данных" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" defaultValueString="Нет данных" syncable="YES"/>
+    </entity>
+    <entity name="Mileage_Data" representedClassName="Mileage_Data" syncable="YES" codeGenerationType="class">
+        <attribute name="mileage" optional="YES" attributeType="String" defaultValueString="Нет данных" syncable="YES"/>
+    </entity>
+    <entity name="Model_Data" representedClassName="Model_Data" isAbstract="YES" syncable="YES" codeGenerationType="class">
+        <attribute name="nameModel" optional="YES" attributeType="String" defaultValueString="Нет данных" syncable="YES"/>
+    </entity>
+    <entity name="PassportAuto_Data" representedClassName="PassportAuto_Data" syncable="YES" codeGenerationType="class">
+        <attribute name="nameOwner" optional="YES" attributeType="String" defaultValueString="Нет данных" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="String" defaultValueString="Нет данных" syncable="YES"/>
+    </entity>
+    <entity name="SertificateAuto_Data" representedClassName="SertificateAuto_Data" syncable="YES" codeGenerationType="class">
+        <attribute name="number" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TechnicalInspection_Data" representedClassName="TechnicalInspection_Data" syncable="YES" codeGenerationType="class">
+        <attribute name="number" optional="YES" attributeType="String" defaultValueString="Нет данных" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Model_Data" positionX="527.765625" positionY="-276.81640625" width="128" height="58"/>
+        <element name="PassportAuto_Data" positionX="525.56640625" positionY="-161.140625" width="128" height="73"/>
+        <element name="DriveSertificate_Data" positionX="374.19921875" positionY="-370.375" width="128" height="88"/>
+        <element name="TechnicalInspection_Data" positionX="373.703125" positionY="-50.15625" width="128" height="58"/>
+        <element name="Mileage_Data" positionX="450" positionY="-216" width="128" height="60"/>
+        <element name="SertificateAuto_Data" positionX="468" positionY="-198" width="128" height="60"/>
+    </elements>
+</model>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProDisplay-Bold.ttf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerWearHealthList" customModule="AutoExpenses" customModuleProvider="target">
+            <connections>
+                <outlet property="headerLabel" destination="4sU-GV-4mO" id="7Ib-lO-5dD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Запчасти и расходники" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sU-GV-4mO">
+                    <rect key="frame" x="9" y="84" width="396" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="6Vy-UC-eAH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="32"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlD-sy-H92" userLabel="ButtonBack">
+                    <rect key="frame" x="9" y="50" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="BlD-sy-H92" secondAttribute="height" multiplier="1:1" id="fpb-h4-jlx"/>
+                        <constraint firstAttribute="height" constant="28" id="m5l-Lj-sgf"/>
+                    </constraints>
+                    <state key="normal" image="back"/>
+                    <connections>
+                        <action selector="backAction:" destination="-1" eventType="touchUpInside" id="bfv-w6-j8i"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.066666666666666666" green="0.086274509803921567" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BlD-sy-H92" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="6" id="JNo-4j-bP5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4sU-GV-4mO" secondAttribute="trailing" constant="9" id="fZi-9Q-9l3"/>
+                <constraint firstItem="4sU-GV-4mO" firstAttribute="leading" secondItem="BlD-sy-H92" secondAttribute="leading" id="hXG-Ri-FDd"/>
+                <constraint firstItem="4sU-GV-4mO" firstAttribute="top" secondItem="BlD-sy-H92" secondAttribute="bottom" constant="6" id="r3k-9v-6eH"/>
+                <constraint firstItem="BlD-sy-H92" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="9" id="uF0-iT-FdC"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="153"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="15.5" height="13.5"/>
+    </resources>
+</document>

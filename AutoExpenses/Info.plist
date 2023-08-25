@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en_US</string>
+	<key>CFBundleDisplayName</key>
+	<string>Мой полис</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>CFBundleURLIconFile</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>b2b.app.ios</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>None</string>
+			<key>CFBundleURLIconFile</key>
+			<string></string>
+			<key>CFBundleURLName</key>
+			<string>addExpenses</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>mainApp</string>
+			</array>
+		</dict>
+		<dict/>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Разрешите приложению доступ к Камере устройства. Для добавления фото</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Разрешите приложению доступ к геолокации устройства. Для определения парковки ТЦ</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Разрешите приложению доступ к геолокации устройства. Для определения парковки ТЦ</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Разрешите приложению доступ к геолокации устройства. Для определения парковки ТЦ</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Разрешите приложению доступ к геолокации устройства. Для определения парковки ТЦ</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Разрешите приложению доступ к геолокации устройства. Для определения парковки ТЦ</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Разрешите приложению доступ к галерее устройства.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Разрешите приложению доступ к галерее устройства.  Для добавления фото</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SFUIDisplay-Bold.ttf</string>
+		<string>SFUIDisplay-Regular.ttf</string>
+		<string>SFUIDisplay-Medium.ttf</string>
+		<string>SFUIDisplay-Heavy.ttf</string>
+		<string>SFUIDisplay-Semibold.ttf</string>
+		<string>SFUIDisplay-Ultralight.ttf</string>
+		<string>SFUIDisplay-Black.ttf</string>
+		<string>SFProDisplay-Bold.ttf</string>
+		<string>SFProDisplay-Heavy.ttf</string>
+		<string>SFProDisplay-Light.ttf</string>
+		<string>SFProDisplay-Thin.ttf</string>
+		<string>SFProDisplay-Regular.ttf</string>
+		<string>SFProDisplay-Medium.ttf</string>
+		<string>SFProDisplay-Semibold.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

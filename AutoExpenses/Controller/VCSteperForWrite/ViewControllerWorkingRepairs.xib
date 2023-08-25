@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIDisplay-Regular.ttf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerWorkingRepairs" customModule="AutoExpenses" customModuleProvider="target">
+            <connections>
+                <outlet property="tableView" destination="ipQ-nc-tYV" id="ZgI-3o-aQb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NLx-AH-rcf">
+                    <rect key="frame" x="16" y="60" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="UQr-iw-m5f"/>
+                        <constraint firstAttribute="width" constant="40" id="hqg-nl-bHu"/>
+                    </constraints>
+                    <state key="normal" image="backBlack"/>
+                    <connections>
+                        <action selector="actionBack:" destination="-1" eventType="touchUpInside" id="BUQ-NU-MdP"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Перечень услуг" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSt-6R-kwb">
+                    <rect key="frame" x="145.5" y="70" width="123" height="20"/>
+                    <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" sectionIndexMinimumDisplayRowCount="1" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ipQ-nc-tYV">
+                    <rect key="frame" x="0.0" y="116" width="414" height="780"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ipQ-nc-tYV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0P0-ey-o2G"/>
+                <constraint firstAttribute="bottom" secondItem="ipQ-nc-tYV" secondAttribute="bottom" id="1KE-SW-jxG"/>
+                <constraint firstItem="NLx-AH-rcf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="33J-2E-rGN"/>
+                <constraint firstItem="OSt-6R-kwb" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="HFq-92-hKg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ipQ-nc-tYV" secondAttribute="trailing" id="KLs-CY-qyG"/>
+                <constraint firstItem="ipQ-nc-tYV" firstAttribute="top" secondItem="NLx-AH-rcf" secondAttribute="bottom" constant="16" id="WHw-fb-G09"/>
+                <constraint firstItem="OSt-6R-kwb" firstAttribute="centerY" secondItem="NLx-AH-rcf" secondAttribute="centerY" id="eYE-uI-0GF"/>
+                <constraint firstItem="NLx-AH-rcf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="t4O-7o-XVb"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="136.60714285714286"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backBlack" width="15" height="14"/>
+    </resources>
+</document>

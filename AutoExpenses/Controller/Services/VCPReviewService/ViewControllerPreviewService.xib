@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFProDisplay-Medium.ttf">
+            <string>SFProDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerPreviewService" customModule="AutoExpenses" customModuleProvider="target">
+            <connections>
+                <outlet property="backView" destination="RDG-VB-63w" id="b2H-ok-zOn"/>
+                <outlet property="buttonOpenWriteToService" destination="gdV-3D-EoI" id="dPr-Qc-1KB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewVideoPreview" destination="yU9-0m-rol" id="NbC-OO-ZVr"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yU9-0m-rol" customClass="ViewPlayerForVideo" customModule="AutoExpenses" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="286.5"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SgL-iF-e0u">
+                            <rect key="frame" x="16" y="60" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="0Mz-Lm-7t2"/>
+                                <constraint firstAttribute="width" constant="40" id="zoq-yM-SQW"/>
+                            </constraints>
+                            <state key="normal" image="back"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="SgL-iF-e0u" firstAttribute="leading" secondItem="yU9-0m-rol" secondAttribute="leading" constant="16" id="JcG-IX-gTZ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDG-VB-63w" userLabel="backView">
+                    <rect key="frame" x="0.0" y="275.5" width="414" height="11"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gdV-3D-EoI" userLabel="buttonWrite">
+                    <rect key="frame" x="16" y="794" width="382" height="52"/>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.41960784313725491" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="wpI-yb-K9M"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="17"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Записаться на сервис">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RDG-VB-63w" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="2V4-go-vUF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="gdV-3D-EoI" secondAttribute="trailing" constant="16" id="31j-64-C66"/>
+                <constraint firstItem="yU9-0m-rol" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BP3-fu-rzB"/>
+                <constraint firstItem="RDG-VB-63w" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="P21-u5-Vw1"/>
+                <constraint firstItem="RDG-VB-63w" firstAttribute="top" secondItem="yU9-0m-rol" secondAttribute="bottom" constant="-11" id="WfX-Fp-Zhw"/>
+                <constraint firstItem="yU9-0m-rol" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="afS-un-u0S"/>
+                <constraint firstItem="gdV-3D-EoI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="cLr-OU-VL7"/>
+                <constraint firstItem="yU9-0m-rol" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.32" id="eg4-2n-lCX"/>
+                <constraint firstItem="SgL-iF-e0u" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="guC-dX-zqb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gdV-3D-EoI" secondAttribute="bottom" constant="16" id="hxp-3M-uDJ"/>
+                <constraint firstItem="RDG-VB-63w" firstAttribute="bottom" secondItem="yU9-0m-rol" secondAttribute="bottom" id="if6-fg-40x"/>
+                <constraint firstItem="yU9-0m-rol" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jKM-wg-TDB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back" width="15.5" height="13.5"/>
+    </resources>
+</document>

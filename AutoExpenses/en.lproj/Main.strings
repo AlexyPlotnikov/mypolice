@@ -1,0 +1,39 @@
+
+/* Class = "UITabBarItem"; title = "Статистика"; ObjectID = "7d3-S2-ovw"; */
+"7d3-S2-ovw.title" = "Статистика";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "DMW-mN-TCk"; */
+"DMW-mN-TCk.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ERW-Zn-Jbs"; */
+"ERW-Zn-Jbs.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Добавить"; ObjectID = "Gx8-Yt-wOG"; */
+"Gx8-Yt-wOG.normalTitle" = "Добавить";
+
+/* Class = "UILabel"; text = "Статистика"; ObjectID = "NA4-25-Rni"; */
+"NA4-25-Rni.text" = "Статистика";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "QFt-NF-wvh"; */
+"QFt-NF-wvh.text" = "Label";
+
+/* Class = "UILabel"; text = "Внести расходы"; ObjectID = "bjx-iM-twc"; */
+"bjx-iM-twc.text" = "Внести расходы";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "cXB-v6-28w"; */
+"cXB-v6-28w.text" = "Label";
+
+/* Class = "UILabel"; text = "Нет данных"; ObjectID = "cnF-8H-NF6"; */
+"cnF-8H-NF6.text" = "Нет данных";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "g5G-6s-tGS"; */
+"g5G-6s-tGS.text" = "Category";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gfz-TD-cF2"; */
+"gfz-TD-cF2.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Главная"; ObjectID = "ghy-yD-yLD"; */
+"ghy-yD-yLD.title" = "Главная";
+
+/* Class = "UITabBarItem"; title = "Расходы"; ObjectID = "pqZ-td-3jO"; */
+"pqZ-td-3jO.title" = "Расходы";

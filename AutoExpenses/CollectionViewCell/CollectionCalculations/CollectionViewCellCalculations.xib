@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SFUIDisplay-Bold.ttf">
+            <string>SFUIDisplay-Bold</string>
+        </array>
+        <array key="SFUIDisplay-Medium.ttf">
+            <string>SFUIDisplay-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellCalculation" id="gTV-IL-0wX" customClass="CollectionViewCellCalculations" customModule="AutoExpenses" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="269" height="106"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="269" height="106"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cQ-cK-XSa" userLabel="LabelValue">
+                        <rect key="frame" x="0.0" y="16" width="269" height="26.5"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Bold" family="SF UI Display" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eh-vb-zYS" userLabel="LabelName">
+                        <rect key="frame" x="0.0" y="46.5" width="269" height="16"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Medium" family="SF UI Display" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="0.59457940924657537" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="5cQ-cK-XSa" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" multiplier="0.25" id="EMi-Ao-SBY"/>
+                <constraint firstItem="5eh-vb-zYS" firstAttribute="width" secondItem="5cQ-cK-XSa" secondAttribute="width" id="JMH-Xd-5NQ"/>
+                <constraint firstItem="5cQ-cK-XSa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="X11-St-TbS"/>
+                <constraint firstAttribute="trailing" secondItem="5cQ-cK-XSa" secondAttribute="trailing" id="Yk6-oU-NMp"/>
+                <constraint firstItem="5cQ-cK-XSa" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="16" id="bAh-9b-92S"/>
+                <constraint firstItem="5eh-vb-zYS" firstAttribute="top" secondItem="5cQ-cK-XSa" secondAttribute="bottom" constant="4" id="esU-pT-6o7"/>
+                <constraint firstItem="5eh-vb-zYS" firstAttribute="leading" secondItem="5cQ-cK-XSa" secondAttribute="leading" id="m3F-rb-bmu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="269" height="106"/>
+            <connections>
+                <outlet property="labelName" destination="5eh-vb-zYS" id="Bd5-w6-5Z3"/>
+                <outlet property="labelValue" destination="5cQ-cK-XSa" id="bNy-2X-Y6M"/>
+            </connections>
+            <point key="canvasLocation" x="19.565217391304348" y="165.40178571428569"/>
+        </collectionViewCell>
+    </objects>
+</document>
